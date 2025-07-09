@@ -25,7 +25,7 @@ public class StandAloneTest {
 		landingPage.goTo(); // Using the method goTo from LandingPage class to navigate to the application
 							// URL and set up the browser.
 		landingPage.loginToApplication("anand@abc.com", "Pa55word!"); // Using the method loginToApplication from
-																		// LandingPage class to login to the
+		//Comment added to check GitHun Jenkins integration forr CI/CD																// LandingPage class to login to the
 																		// application.
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));

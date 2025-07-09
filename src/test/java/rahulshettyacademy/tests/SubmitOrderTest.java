@@ -62,6 +62,7 @@ public class SubmitOrderTest extends BaseTest { // SubmitOrderTest extends BaseT
 		ProductCataloguePage productCatalogue = landingPage.loginToApplication("anand@abc.com", "Pa55word!"); // Using ProductCatalogue page object to
 		OrderPage orderPage = productCatalogue.goToOrdersPage();
 		orderPage.verifyOrderDisplay(productName); // Verifying the order history using the method from OrderPage class.
+		System.out.println("Just checking");
 		Assert.assertTrue(orderPage.verifyOrderDisplay(productName), "Order history does not display the expected product: " + productName);
 	}
 	
