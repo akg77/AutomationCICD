@@ -1,0 +1,13 @@
+[
+
+	{
+		"email":"anand@abc.com",
+		"password":"Pa55word!",
+        "productName": "ZARA COAT 3"
+    },
+    {
+		"email":"anand@abc.com",
+		"password":"Pa55word!",
+		"productName": "ADIDAS ORIGINAL"
+    }
+]
